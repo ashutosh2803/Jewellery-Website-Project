@@ -1,0 +1,205 @@
+.top-violet-block{
+    height: 3vh;
+    background-color: rgb(35,22,53);
+    text-align: center;
+    color: white;
+    padding: 0.5%;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.Navbar-wrapper{
+    margin-top: 0.5%;
+    padding: 1%;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: rgb(246,239,246);
+}
+.Navbar-wrapper > p{
+    margin-top: 2%;
+    cursor: pointer;
+}
+.Navbar-wrapper > p:hover{
+    color: rgb(159,125,246);
+    opacity: 0.8;
+}
+.navbar-logo{
+    border-radius: 40px;
+    width: 7%;
+}
+.navbar-logo:hover{
+    border: 1px solid rgb(159,125,246);
+}
+.navbar-users,
+.navbar-favourites,
+.navbar-cart{
+    width: 5%;
+    cursor: pointer;
+}
+.preview2-wrapper{
+    display: flex;
+    margin: 0.5%;
+}
+.preview2-right-container{
+    margin-left: 0.5%;
+}
+.preview1-img{
+    margin-top: 0.5%;
+    width: 100%;
+    cursor: pointer;
+}
+.preview2-left-img{
+    width: 47%;
+    cursor: pointer;
+    margin-right: 2.1%;
+}
+.Navbar-wrapper > img:hover{
+    opacity: 0.7;
+}
+.knowMore-btn{
+    border: 5px;
+    width: 14%;
+    /* padding: 2%; */
+    height: 7vh;
+    background-color: rgb(35,32,53);
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    border: 1px solid rgb(142,119,236);
+    border-radius: 3%;
+    cursor: pointer;
+}
+.knowMore-btn:hover{
+    opacity: 0.5;
+    border: 2px solid white;
+}
+.preview3-wrapper{
+    padding: 5%;
+    text-align: center;
+    background-color: rgb(35,22,53);
+    color: white
+}
+.preview3-heading{
+    font-family: 'Shippori Mincho', serif;
+    padding-bottom: 3%;
+}
+.preview3-heading-span{
+    font-family: 'Shippori Mincho', serif;
+}
+.preview3-description{
+    padding-bottom: 3%;
+    text-align: center;
+}
+.catalog-heading-wrapper{
+    display: flex;
+}
+.catalog-heading-left{
+    padding: 2%;
+    padding-left: 5%;
+    font-family: 'Shippori Mincho', serif;
+}
+.catalog-heading-left > p:nth-of-type(1){
+    font-size: 35px;
+}
+.catalog-heading-left > p:nth-of-type(2){
+    height: 1px;
+    background-color: rgb(35,22,53);
+    width: 50%;
+}
+.catalog-heading-right{
+    padding: 2%;
+    padding-left: 45%;
+    cursor: pointer;
+    padding-top: 4%;
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+}
+.catalog-heading-right > div:hover{
+    background-color: rgb(144, 122, 235);
+    color: white;
+}
+.catalog-heading-right > div:nth-of-type(1){
+    padding: 20% 40% 10% 40%;
+    border-radius: 10px 0px 10px 10px;  
+    height: 4vh;
+    border: 1px solid rgb(142,119,236);
+}
+
+.catalog-heading-right > div:nth-of-type(2){
+    padding: 20% 40% 10% 40%;
+    border-radius: 10px 10px 10px 0px;  
+    height: 4vh;
+    border: 1px solid rgb(142,119,236);
+}
+.catalog-items-wrapper{
+    display: flex;
+    padding: 1%;
+    justify-content: space-evenly;
+}
+.catalog-items-wrapper > div{
+    width: 28%;
+    cursor: pointer;
+    padding: 1%;
+    margin: 0.5%;
+    background-color: rgb(250,250,252);
+    border: 1px solid rgb(250,250,252);
+    border-radius: 5px;
+}
+.catalog-items-wrapper > div > img{
+    width: 75%;
+    border-radius: 10px;
+    padding-left: 10%;
+    border: 1px solid rgb(250,250,252);
+}
+.catalog-items-wrapper > div > img:hover{
+    width: 80%;
+    border: 1px solid grey;
+}
+.catalog-items-wrapper > div > p{
+    font-size: 20px;
+    padding-left: 3%;
+    font-weight: 500;
+}
+.catalog-items-wrapper > div > p:nth-of-type(2){
+    font-size: 15px;
+    opacity: 0.8;
+}
+.catalog-items-wrapper > div > p > strike{
+    opacity: 0.7;
+    padding-left: 3%;
+}
+.readMore-btn{
+    border: 1px solid rgb(74, 57, 184);
+    color: rgb(141,125,249);
+    width: fit-content;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0% 0% 5% 45%;
+    padding: 1%;
+}
+.footer{
+    width: 100%;
+    margin: auto;
+}
+.footer > img{
+    padding: 1%;
+    width: 98%;
+}
+.credits-wrapper{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(35,22,53);
+}
+.credits-wrapper > div{
+    color: white;
+    text-align: center;
+}
+.developer-heading{
+    color: rgb(35,22,53);
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 0.3ch;
+    font-size: 40px;
+}
